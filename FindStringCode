@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class FindStringCodeV2 {
+class FindStringCode {
     public int findStringCode(String input1) {
         String[] words = input1.split(" ");
         String output = "";
