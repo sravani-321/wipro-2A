@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class MostFrequentlyOccurringDigitV2 {
+class MostFrequentlyOccurringDigit {
     public int mostFrequentlyOccurringDigit(int[] input1, int input2) {
         int[] freq = new int[10];
         
