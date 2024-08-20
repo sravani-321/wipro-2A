@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jump to Bottom and Back</title>
+</head>
+<body>
+
+    <!-- Link at the top to jump to the bottom -->
+    <p style="text-align: center;">
+        <a href="#bottom">Go to Bottom</a>
+    </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+    <!-- Some content to make the page scrollable -->
+    <div style="height: 1000px;">
+        <p style="text-align: center;">Scroll down to see more content.</p>
+    </div>
+
+    <!-- Anchor point at the bottom -->
+    <div id="bottom" style="text-align: center;">
+        <p>You have reached the bottom of the page!</p>
+        <!-- Link at the bottom to jump back to the top -->
+        <a href="#top">Go to Top</a>
+    </div>
+
+</body>
+</html>
