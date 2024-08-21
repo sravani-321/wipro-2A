@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://tse4.mm.bing.net/th?id=OIP.awJVRSUSNIHbHuE1GTOw0AHaDe&pid=Api&P=0&h=180');
+    background-repeat: repeat-y;
+    background-position: top center;
+    background-size: auto;
+    font-family: Arial, sans-serif;
+    color: red;
+    text-align: center;
+    padding-top: 50px;
+}
